@@ -1,14 +1,20 @@
+#tudo {
+  width: 900px;
+  margin: 0 auto;
+  text-align:left;
+}
+
 body {
-    padding-left: 50px;
+  margin: 0 auto;
+  padding-left: 50px;
+  background-image: url("https://www.equipo.com.br/wp-content/uploads/2016/07/fundo-preto-1170x869.jpg");
+  text-align:center;
 }
 
 #titulo {
     padding-left: 25px;
 }
 
-body {
-    background-image: url("https://www.equipo.com.br/wp-content/uploads/2016/07/fundo-preto-1170x869.jpg");
-}
 
 h1 {
     fonte-family: Arial;
@@ -22,7 +28,7 @@ h3 {
 
 #cx_sobre {
     background-color: #fef9f6;
-    width: 1000px;
+    width: 900px;
     height: 420px;
     border: solid #a8bdc2;
     border-raius: 10px;
@@ -32,8 +38,8 @@ h3 {
 
 #cx_conteudo {
     background-color: #fef9f6;
-    width: 1000px;
-    height: 500px;
+    width: 900px;
+    height: 530px;
     border: solid #a8bdc2;
     border-raius: 10px;
 }
@@ -55,7 +61,7 @@ h3 {
 }
 
 .box {
-    height: 350px;
+    height: 400px;
     width: 40%;
     margin: 24px;
     font-family: "lucida sans unicode", "lucida grande", sans-serif;
@@ -66,8 +72,13 @@ h3 {
     line-height: 1.4;
 }
 
+.box_logo {
+    margin: 0 auto;
+}
+
+
 #espaco {
-    width: 1000px;
+    width: 900px;
     height: 20px;
 }
 
