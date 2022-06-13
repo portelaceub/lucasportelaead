@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-
+<div id="tudo">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <div id="espaco">
     </div>
     <div id="titulo">
@@ -20,9 +22,10 @@
         <h3><strong> Sobre a AgroPower </strong></h3>
         <div class="sobre">
 
-            <div class="box">
+            <div class="box_logo">
                 <img src="https://static.takeaway.com/images/restaurants/pl/O3O03P01/logo_465x320.png?timestamp=1632206663" alt="Logo da AgroPower" />
             </div>
+
             <div class="box"> A AgroPower nasceu no ano de 2022 quando da necessidade observada no setor da agroindustria de consultória com vista na aplicação de BI para acessorar as empresas na tomada de decisão. A consultoria disponibiliza paineis com informações macro
                 sobre o setor agro, mas também realiza produtos conforme interesse do cliente. Mais do que um serviço, pretendemos ser um investimento, pois acreditamos que podemos contribuir para a construção do agro no país e a imagem do Brasil como
                 um player sustentável. Dentre os principais serviços estão:
@@ -57,46 +60,40 @@
             </div>
             <div class="box">
                 <h3><strong> Formulário de Contato </strong></h3>
-                <pre> </pre>
-                <div class="formulario">
-                    <div class="campos_form">
-                        <input class="logica_form" placeholder="NOME COMPLETO">
-                    </div>
-                    <pre> </pre>
-                    <div class="campos_form">
-                        <input class="logica_form" placeholder="CIDADE">
-                    </div>    
-                    <pre> </pre>
-                    <div class="campos_form">
-                        <input class="logica_form" placeholder="ESTADO">
-                    </div>    
-                    <pre> </pre>                   
-                    <div class="campos_form">
-                        <input class="logica_form" placeholder="E-MAIL">
-                        <pre> </pre>
-                    </div>
-                    <div class="campos_form">
-                        <input class="logica_form" placeholder="TELEFONE">
-                    </div>
-                    <pre> </pre>
-                    <div class="campos_form">
-                        <input class="logica_form" placeholder="CELULAR">
-                    </div>
-                    <div class="campos_form">
-                        <pre> </pre> <input class="logica_form" placeholder="MESSAGEM">
-                    </div>
-                    <pre> </pre>
-                    <input type="checkbox" name="lgpd"> Concordo que minhas informações sejam armazenadas para uso interno da AGROPOWER, bem como autorizo o contato por telefones e e-mail, conforme diretrizes da Lei Geral de Proteção de Dados Pessoais,
-                    Lei nº 13.709/2018 (LGPD)
-                    <pre> </pre>
-                    <div class="campos_botoes">
-                        <button class="logica_forma_botoes">ENVIAR</button>
-                        </form>
+               <form>
+
+    <div>
+	<pre> </pre>
+      Seu Nome: <input type="text" name="nome" id="nome" placeholder="Digite seu nome*" required><p></p>
+	<pre> </pre>	
+	Seu Cidade: <input type="text" name="cidade" id="cidade" placeholder="Digite sua Cidade*" required><p></p>
+	<pre> </pre>
+	Seu Estado: <input type="text" name="estado" id="estado" placeholder="Digite seu Estado*" required><p></p>
+ 	<pre> </pre>     
+	Seu Telefone: <input type="tel" name="telefone" id="telefone" placeholder="Digite seu Telefone"><p></p>
+	<pre> </pre>
+      Seu E-mail: <input type="email" name="email" id="email" placeholder="Digite seu E-mail*" required><p></p>
+	<pre> </pre>
+      Deseja receber nossas novidades? <input type="radio" name="sim" id="sim" checked> Sim <input type="radio" name="nao" id="nao"> Não 
+
+    </div>
+
+    <div>
+	<pre> </pre>
+      Sua mensagem: <textarea required> Sua Mensagem*</textarea>
+
+    </div>
+	<pre> </pre>
+    <input type="submit" value="Enviar">
+
+  </form>
                     </div>
                 </div>
             </div>
 
 
 </body>
-
+    <div id="espaco">
+    </div>
+</div>
 </html>
